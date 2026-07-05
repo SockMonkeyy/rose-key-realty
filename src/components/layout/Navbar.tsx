@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "../ui/button";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -31,9 +32,9 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <button className="rounded-xl bg-[#355E3B] px-6 py-3 text-white transition hover:bg-[#29492F]">
-          Schedule Consultation
-        </button>
+        <Button>
+    Schedule Consultation
+</Button>
 
       </div>
     </header>

@@ -1,4 +1,6 @@
 import HomeSearch from "./HomeSearch";
+import SearchChips from "./SearchChips";
+import MarketStats from "./MarketStats";
 export default function Hero() {
   return (
     <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden bg-neutral-900">
@@ -32,6 +34,8 @@ export default function Hero() {
         </p>
 
         <HomeSearch />
+        <SearchChips />
+        <MarketStats />
 
       </div>
 
